@@ -1,4 +1,4 @@
-# Portfólio Karina Martins
+# Portfólio Pessoal
 
 Este é um projeto de portfólio pessoal desenvolvido em HTML, CSS e JavaScript, com dados dinâmicos carregados a partir de um arquivo JSON. O objetivo é apresentar informações profissionais, habilidades, portfólio de projetos e experiências de forma interativa e responsiva.
 
