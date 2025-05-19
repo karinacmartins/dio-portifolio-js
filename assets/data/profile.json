@@ -10,19 +10,19 @@
       
       {
         "name": "Java Script",
-        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/js.png"
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/main/assets/img/tools/js.png"
       },
       {
         "name": "HTML",
-        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/html.png"
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/main/assets/img/tools/html.png"
       },
       {
         "name": "React",
-        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/react.png"
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/main/assets/img/tools/react.png"
       },
       {
         "name": "GIT",
-        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/git.png"
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/main/assets/img/tools/git.png"
       }
     ],
     "softSkills": [
