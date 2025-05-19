@@ -14,11 +14,7 @@ Este é um projeto de portfólio pessoal desenvolvido em HTML, CSS e JavaScript,
 - Layout responsivo e interativo com acordeon.
 - Dados carregados dinamicamente de um arquivo JSON.
 
-## Estrutura do Projeto
+<br>
+<br>
 
-- **index.html**: Página principal do portfólio.
-- **assets/css/**: Estilos CSS organizados por seção.
-- **assets/data/profile.json**: Dados do perfil utilizados para preencher o portfólio.
-- **assets/js/**: Scripts JavaScript para manipulação de dados e interatividade.
-- **assets/img/**: Imagens e ícones utilizados no projeto.
-
+  <div align="right">Made with 💜 by <a href="https://github.com/karinacmartins">KM</a>.</div>
