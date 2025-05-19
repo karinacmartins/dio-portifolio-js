@@ -22,25 +22,27 @@
     <link rel="stylesheet" href="/assets/css/experience.css">
     <link rel="stylesheet" href="/assets/css/skills.css">
     <link rel="stylesheet" href="/assets/css/footer.css">
+
+    <link rel="shortcut icon" href="/assets/img/tools/curriculum.png" type="image/x-icon">
 </head>
 
 <body>
     <main class="main">
         <header class="header">
-            <img src="/assets/img/perfill (4).jpg" alt="Foto de Renan J Paula" class="photo">
+            <img src="assets/img/user.png" alt="Foto de Perfil" class="photo" id="profile.photo">
 
             <h1 class="title">
-                Olá, <br>eu sou Karina Martins
+                Olá, <br>eu sou <span id="profile.name">Carregando...</span>
             </h1>
 
             <div class="information">
-                <p class="job">Desenvolvedora Junior</p>
-                <p class="location">São Paulo - BR</p>
+                <p class="job" id="profile.job">Carregando...</p>
+                <p class="location" id="profile.location">Carregando...</p>
                 <p class="phone">
-                    <a href="tel:(1) 9 9999-9999">(11) 9 9999-9999</a>
+                    <a href="tel:(16) 9 9999-9999" id="profile.phone">Carregando...</a>
                 </p>
                 <p class="email">
-                    <a href="mailto:ex@mail.com">ex@mail.com</a>
+                    <a href="mailto:ex@mail.com" id="profile.email">carregando@mail.com</a>
                 </p>
             </div>
         </header>
@@ -54,30 +56,16 @@
                 <div class="skills">
                     <section class="tools">
                         <h3>Ferramentas:</h3>
-                        <ul>
-                            <li>
-                                <img src="/assets/img/tools/node.png" alt="Nodejs" title="Nodejs">
-                            </li>
-                            <li>
-                                <img src="/assets/img/tools/react.png" alt="React" title="React">
-                            </li>
-                            <li>
-                                <img src="/assets/img/tools/git.png" alt="GIT" title="GIT">
-                            </li>
-                            <li>
-                                <img src="/assets/img/tools/js.png" alt="Java Script" title="Java Script">
-                            </li>
+                        <ul id="profile.skills.hardSkills">
                         </ul>
                     </section>
 
                     <section class="personal">
                         <h3>Pessoal:</h3>
-                        <ul>
-                            <li>Alta capacidade de análise e tomada de decisão</li>
-                            <li>Organização e atenção a detalhes</li>
-                            <li>Proatividade e foco em resultados</li>
-                            <li>Comunicação clara e trabalho em equipe</li>
-                            <li>Flexibilidade</li>
+                        <ul id="profile.skills.softSkills">
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
+                            <li>Carregando...</li>
                         </ul>
                     </section>
                 </div>
@@ -90,10 +78,8 @@
             </button>
 
             <div class="content">
-                <ul class="languages">
-                    <li>Português: Nativo</li>
-                    <li>Ingles: Iniciante</li>
-                    <li>Espanhol: Iniciante</li>
+                <ul class="languages" id="profile.languages">
+                    <li>Carregando...</li>
                 </ul>
             </div>
         </section>
@@ -104,20 +90,7 @@
             </button>
 
             <div class="content">
-                <ul class="portfolio">
-                    <li>
-                        <h3 class="title github">Nikel uma aplicação de organização financeira</h3>
-                        <a href="https://nikel-growdev.vercel.app/" target="_blank">Acesse aqui.</a>
-                    </li>
-                    <li>
-                        <h3 class="title github">Template desenvolvido para empresas de animação e organização de festas
-                            infantis.</h3>
-                        <a href="https://brinca-festas.vercel.app/" target="_blank">Acesse aqui.</a>
-                    </li>
-                    <li>
-                        <h3 class="title">Template desenvolvido para confeiteiros e confeitarias</h3>
-                        <a href="https://confeitaria-template.vercel.app/" target="_blank">Acesse aqui.</a>
-                    </li>
+                <ul class="portfolio" id="profile.portfolio">
                 </ul>
             </div>
         </section>
@@ -128,32 +101,31 @@
             </button>
 
             <div class="content">
-                <ul class="experience">
-                    <li>
-                        <h3 class="title">Operadora de Autenticação / ClearSale</h3>
-                        <p class="period">Out 2021 - Atual</p>
-                        <p>
-                            Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
-                            iste.
-                        </p>
-                    </li>
-
-                    <li>
-                        <h3 class="title">Freelancer Developer / Frrelancer</h3>
-                        <p class="period">Jan 2023 - Atual</p>
-                        <p>
-                            Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est
-                            reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure,
-                            iste.
-                        </p>
-                    </li>
+                <ul class="experience" id="profile.professionalExperience">
                 </ul>
             </div>
         </section>
+
+        <footer>
+            
+            <div class="social">
+                <a href="https://github.com/karinacmartins" target="_blank" title="github">
+                    <img src="assets/img/tools/git.png" alt="GitHub">
+                </a>
+                <a href="https://www.linkedin.com/in/karinacmartins/" target="_blank" title="linkedin">
+                    <img src="assets/img/tools/linkedin.png" alt="LinkedIn">
+                </a>
+            </div>
+
+            <a href="https://www.dio.me/users/nina_kastro" target="_blank" title="DIO">
+                <img src="assets/img/dio.svg" alt="DIO">
+            </a>
+        </footer>
     </main>
 
-    <script src="/assets/js/acordeon.js"></script>
+    <script src="assets/js/acordeon.js"></script>
+    <script src="assets/js/api.js"></script>
+    <script src="assets/js/main.js"></script>
 </body>
 
 </html>

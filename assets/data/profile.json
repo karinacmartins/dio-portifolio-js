@@ -1,0 +1,65 @@
+{
+  "name": "Karina Martins",
+  "photo": "https://avatars.githubusercontent.com/u/131190006?s=400&u=e8ea14048fd14be58eef78958d9c3f4b49d52740&v=4",
+  "job": "Desenvolveodra Junior",
+  "location": "São Paulo - SP",
+  "phone": "(11) 9999-9999",
+  "email": "nina.kastro@icloud.com",
+  "skills": {
+    "hardSkills": [
+      
+      {
+        "name": "Java Script",
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/js.png"
+      },
+      {
+        "name": "HTML",
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/html.png"
+      },
+      {
+        "name": "React",
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/react.png"
+      },
+      {
+        "name": "GIT",
+        "logo": "https://raw.githubusercontent.com/karinacmartins/dio-portifolio-js/refs/heads/initial/assets/img/tools/git.png"
+      }
+    ],
+    "softSkills": [
+      "Alta capacidade de análise e tomada de decisão",
+      "Organização e atenção a detalhes",
+      "Proatividade e foco em resultados",
+      "Comunicação clara e trabalho em equipe",
+      "Flexibilidade e adaptabilidade"
+    ]
+  },
+  "languages": [
+    "Português (nativo)",
+    "Inglês (iniciante)",
+    "Espanhol (iniciante)"
+  ],
+  "portfolio": [
+    {
+      "name": "Nikel uma aplicação de organização financeira",
+      "url": "https://nikel-growdev.vercel.app/",
+      "github": true
+    },
+    {
+      "name": "Template desenvolvido para confeiteiros e confeitarias",
+      "url": "https://confeitaria-template.vercel.app/",
+      "github": true
+    }
+  ],
+  "professionalExperience": [
+    {
+      "name": "Operadora de Autenticação / ClearSale",
+      "period": "2021 - até o momento",
+      "description": "Atuo na área de autenticação, onde sou responsável por garantir a segurança e a confiabilidade de transações."
+    },
+    {
+      "name": "Freelancer Developer / Freelancer",
+      "period": "2023 - até o momento",
+      "description": "Desenvolvimento de projetos para clientes, com foco em soluções personalizadas e eficientes."
+    }
+  ]
+}
